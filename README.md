@@ -1,15 +1,15 @@
-Video Classification Using 3D CNN
+# Video Classification Using 3D CNN
 A deep learning model for classifying videos using a 3D Convolutional Neural Network (CNN) architecture. The model is designed to detect and classify activities in video sequences.
 Features
 
-3D CNN architecture with multiple parallel processing branches
+# 3D CNN architecture with multiple parallel processing branches
 Support for video frame processing and batching
 Real-time data augmentation
 Integration with Weights & Biases (wandb) for experiment tracking
 Comprehensive evaluation metrics including accuracy, precision, recall, and F1 score
 ROC and Precision-Recall curve visualization
 
-Requirements
+# Requirements
 
 TensorFlow
 OpenCV (opencv-python==4.5.2.52, opencv-python-headless==4.5.2.52)
@@ -19,7 +19,7 @@ Pandas
 Matplotlib
 Scikit-learn
 
-Model Architecture
+# Model Architecture
 The model uses a complex 3D CNN architecture with:
 
 Multiple convolutional branches for feature extraction
